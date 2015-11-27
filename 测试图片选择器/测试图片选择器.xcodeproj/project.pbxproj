@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EBCA3861B750C9400248D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3851B750C9400248D79 /* AppDelegate.swift */; };
+		6EBCA38D1B750C9400248D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCA38C1B750C9400248D79 /* Assets.xcassets */; };
+		6EBCA3901B750C9400248D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCA38E1B750C9400248D79 /* LaunchScreen.storyboard */; };
+		6EBCA39B1B750C9400248D79 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA39A1B750C9400248D79 /* _______Tests.swift */; };
+		6EBCA3A61B750C9400248D79 /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3A51B750C9400248D79 /* _______UITests.swift */; };
+		6EBCA3B51B750D0F00248D79 /* QYMPhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3B41B750D0F00248D79 /* QYMPhotoSelectorController.swift */; };
+		6EBCA3B91B7510E400248D79 /* UIButton+Extensive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3B81B7510E400248D79 /* UIButton+Extensive.swift */; };
+		6EBCA3BB1B761CDA00248D79 /* QYMPhotoselectedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3BA1B761CDA00248D79 /* QYMPhotoselectedViewCell.swift */; };
+		6EBCA3BD1B762A4A00248D79 /* UIImage+Extense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCA3BC1B762A4A00248D79 /* UIImage+Extense.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EBCA3971B750C9400248D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBCA37A1B750C9400248D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBCA3811B750C9400248D79;
+			remoteInfo = "测试图片选择器";
+		};
+		6EBCA3A21B750C9400248D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBCA37A1B750C9400248D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EBCA3811B750C9400248D79;
+			remoteInfo = "测试图片选择器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EBCA3821B750C9400248D79 /* 测试图片选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试图片选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBCA3851B750C9400248D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBCA38C1B750C9400248D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBCA38F1B750C9400248D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBCA3911B750C9400248D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBCA3961B750C9400248D79 /* 测试图片选择器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试图片选择器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBCA39A1B750C9400248D79 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		6EBCA39C1B750C9400248D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBCA3A11B750C9400248D79 /* 测试图片选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试图片选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBCA3A51B750C9400248D79 /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		6EBCA3A71B750C9400248D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBCA3B41B750D0F00248D79 /* QYMPhotoSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYMPhotoSelectorController.swift; sourceTree = "<group>"; };
+		6EBCA3B81B7510E400248D79 /* UIButton+Extensive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensive.swift"; sourceTree = "<group>"; };
+		6EBCA3BA1B761CDA00248D79 /* QYMPhotoselectedViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYMPhotoselectedViewCell.swift; sourceTree = "<group>"; };
+		6EBCA3BC1B762A4A00248D79 /* UIImage+Extense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extense.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBCA37F1B750C9400248D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA3931B750C9400248D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA39E1B750C9400248D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EBCA3791B750C9400248D79 = {
+			isa = PBXGroup;
+			children = (
+				6EBCA3841B750C9400248D79 /* 测试图片选择器 */,
+				6EBCA3991B750C9400248D79 /* 测试图片选择器Tests */,
+				6EBCA3A41B750C9400248D79 /* 测试图片选择器UITests */,
+				6EBCA3831B750C9400248D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBCA3831B750C9400248D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCA3821B750C9400248D79 /* 测试图片选择器.app */,
+				6EBCA3961B750C9400248D79 /* 测试图片选择器Tests.xctest */,
+				6EBCA3A11B750C9400248D79 /* 测试图片选择器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBCA3841B750C9400248D79 /* 测试图片选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCA3B31B750CDB00248D79 /* PhotoSelector */,
+				6EBCA3851B750C9400248D79 /* AppDelegate.swift */,
+				6EBCA38C1B750C9400248D79 /* Assets.xcassets */,
+				6EBCA38E1B750C9400248D79 /* LaunchScreen.storyboard */,
+				6EBCA3911B750C9400248D79 /* Info.plist */,
+			);
+			path = "测试图片选择器";
+			sourceTree = "<group>";
+		};
+		6EBCA3991B750C9400248D79 /* 测试图片选择器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCA39A1B750C9400248D79 /* _______Tests.swift */,
+				6EBCA39C1B750C9400248D79 /* Info.plist */,
+			);
+			path = "测试图片选择器Tests";
+			sourceTree = "<group>";
+		};
+		6EBCA3A41B750C9400248D79 /* 测试图片选择器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCA3A51B750C9400248D79 /* _______UITests.swift */,
+				6EBCA3A71B750C9400248D79 /* Info.plist */,
+			);
+			path = "测试图片选择器UITests";
+			sourceTree = "<group>";
+		};
+		6EBCA3B31B750CDB00248D79 /* PhotoSelector */ = {
+			isa = PBXGroup;
+			children = (
+				6EBCA3B41B750D0F00248D79 /* QYMPhotoSelectorController.swift */,
+				6EBCA3B81B7510E400248D79 /* UIButton+Extensive.swift */,
+				6EBCA3BA1B761CDA00248D79 /* QYMPhotoselectedViewCell.swift */,
+				6EBCA3BC1B762A4A00248D79 /* UIImage+Extense.swift */,
+			);
+			path = PhotoSelector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBCA3811B750C9400248D79 /* 测试图片选择器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBCA3AA1B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器" */;
+			buildPhases = (
+				6EBCA37E1B750C9400248D79 /* Sources */,
+				6EBCA37F1B750C9400248D79 /* Frameworks */,
+				6EBCA3801B750C9400248D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试图片选择器";
+			productName = "测试图片选择器";
+			productReference = 6EBCA3821B750C9400248D79 /* 测试图片选择器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EBCA3951B750C9400248D79 /* 测试图片选择器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBCA3AD1B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器Tests" */;
+			buildPhases = (
+				6EBCA3921B750C9400248D79 /* Sources */,
+				6EBCA3931B750C9400248D79 /* Frameworks */,
+				6EBCA3941B750C9400248D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBCA3981B750C9400248D79 /* PBXTargetDependency */,
+			);
+			name = "测试图片选择器Tests";
+			productName = "测试图片选择器Tests";
+			productReference = 6EBCA3961B750C9400248D79 /* 测试图片选择器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EBCA3A01B750C9400248D79 /* 测试图片选择器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBCA3B01B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器UITests" */;
+			buildPhases = (
+				6EBCA39D1B750C9400248D79 /* Sources */,
+				6EBCA39E1B750C9400248D79 /* Frameworks */,
+				6EBCA39F1B750C9400248D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EBCA3A31B750C9400248D79 /* PBXTargetDependency */,
+			);
+			name = "测试图片选择器UITests";
+			productName = "测试图片选择器UITests";
+			productReference = 6EBCA3A11B750C9400248D79 /* 测试图片选择器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBCA37A1B750C9400248D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QYM;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = qyma;
+				TargetAttributes = {
+					6EBCA3811B750C9400248D79 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6EBCA3951B750C9400248D79 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6EBCA3811B750C9400248D79;
+					};
+					6EBCA3A01B750C9400248D79 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6EBCA3811B750C9400248D79;
+					};
+				};
+			};
+			buildConfigurationList = 6EBCA37D1B750C9400248D79 /* Build configuration list for PBXProject "测试图片选择器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBCA3791B750C9400248D79;
+			productRefGroup = 6EBCA3831B750C9400248D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EBCA3811B750C9400248D79 /* 测试图片选择器 */,
+				6EBCA3951B750C9400248D79 /* 测试图片选择器Tests */,
+				6EBCA3A01B750C9400248D79 /* 测试图片选择器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBCA3801B750C9400248D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBCA3901B750C9400248D79 /* LaunchScreen.storyboard in Resources */,
+				6EBCA38D1B750C9400248D79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA3941B750C9400248D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA39F1B750C9400248D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBCA37E1B750C9400248D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBCA3B51B750D0F00248D79 /* QYMPhotoSelectorController.swift in Sources */,
+				6EBCA3861B750C9400248D79 /* AppDelegate.swift in Sources */,
+				6EBCA3BB1B761CDA00248D79 /* QYMPhotoselectedViewCell.swift in Sources */,
+				6EBCA3B91B7510E400248D79 /* UIButton+Extensive.swift in Sources */,
+				6EBCA3BD1B762A4A00248D79 /* UIImage+Extense.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA3921B750C9400248D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBCA39B1B750C9400248D79 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EBCA39D1B750C9400248D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBCA3A61B750C9400248D79 /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EBCA3981B750C9400248D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBCA3811B750C9400248D79 /* 测试图片选择器 */;
+			targetProxy = 6EBCA3971B750C9400248D79 /* PBXContainerItemProxy */;
+		};
+		6EBCA3A31B750C9400248D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EBCA3811B750C9400248D79 /* 测试图片选择器 */;
+			targetProxy = 6EBCA3A21B750C9400248D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EBCA38E1B750C9400248D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBCA38F1B750C9400248D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBCA3A81B750C9400248D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EBCA3A91B750C9400248D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBCA3AB1B750C9400248D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EBCA3AC1B750C9400248D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "测试图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EBCA3AE1B750C9400248D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "测试图片选择器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试图片选择器.app/测试图片选择器";
+			};
+			name = Debug;
+		};
+		6EBCA3AF1B750C9400248D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "测试图片选择器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试图片选择器.app/测试图片选择器";
+			};
+			name = Release;
+		};
+		6EBCA3B11B750C9400248D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "测试图片选择器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "测试图片选择器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6EBCA3B21B750C9400248D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "测试图片选择器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.qyma.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "测试图片选择器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBCA37D1B750C9400248D79 /* Build configuration list for PBXProject "测试图片选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBCA3A81B750C9400248D79 /* Debug */,
+				6EBCA3A91B750C9400248D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBCA3AA1B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBCA3AB1B750C9400248D79 /* Debug */,
+				6EBCA3AC1B750C9400248D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBCA3AD1B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBCA3AE1B750C9400248D79 /* Debug */,
+				6EBCA3AF1B750C9400248D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBCA3B01B750C9400248D79 /* Build configuration list for PBXNativeTarget "测试图片选择器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBCA3B11B750C9400248D79 /* Debug */,
+				6EBCA3B21B750C9400248D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBCA37A1B750C9400248D79 /* Project object */;
+}
